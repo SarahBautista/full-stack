@@ -1,0 +1,51 @@
+body {
+    background-color: #112;
+}
+h1 {
+    color: #aec9fe;
+    font-family: SpicyRice-Regular;
+}
+label {
+    color: #d3e0ff;
+    font-family: PlayfairDisplayRoman-Black;
+}
+#form {
+    margin-top: 30px;
+    width: 50%;
+}
+.row {
+    margin-bottom: 15px;
+}
+#buttons {
+    margin-top: 30px;
+}
+#submit-btn {
+    color: #ffc389;
+    background-color: #112;
+    font-family: SpicyRice-Regular;
+}
+#submit-btn:hover {
+    color: white;
+    background-color: #aec9fe;
+}
+#reset-btn {
+    color: white;
+    background-color: #aec9fe;
+    font-family: SpicyRice-Regular;
+}
+#reset-btn:hover {
+    color: white;
+    background-color: #798db7;
+    font-family: SpicyRice-Regular;
+}
+.form-control {
+    background-color: #ffc389;
+}
+h4, h5, h6 {
+    padding: 30px;
+    color: #d3e0ff;
+    font-family: PlayfairDisplayRoman-Black;
+}
+h6 {
+    color: white;
+}

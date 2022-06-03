@@ -1,0 +1,12 @@
+h1 {
+    color: #aec9fe;
+    font-family: SpicyRice-Regular;
+}
+h6, #small-text {
+    padding: 30px;
+    color: #d3e0ff;
+    font-family: PlayfairDisplayRoman-Black;
+}
+#small-text {
+    color: white;
+}

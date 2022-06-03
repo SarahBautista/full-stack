@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #112;
+}
+#cnv {
+    position: absolute;
+    width: 100%;
+    object-fit: contain;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+#nav #index {
+    position: relative;
+}
+.navbar {
+    padding: 15px;
+}
+#brand-name {
+    font-size: 72px;
+    padding-left: 20px;
+    color: #ffc389;
+    font-family: SpicyRice-Regular;
+}
+.nav-link {
+    color: #ffc389;
+    font-family: SpicyRice-Regular;
+}
