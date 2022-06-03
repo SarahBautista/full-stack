@@ -1,0 +1,46 @@
+h1 {
+    color: #aec9fe;
+    font-family: 'Spicy Rice', cursive;
+}
+h6, .sub {
+    padding: 30px;
+    color: #d3e0ff;
+    font-family: 'Playfair Display', serif;
+}
+.sub {
+    color: white;
+}
+h5 {
+    color: #d3e0ff;
+    font-family: 'Spicy Rice', cursive;
+	cursor: pointer;
+	border: 1px solid #ffc389;
+	padding: 10px;
+}
+h5:hover {
+	background-color: rgb(33, 33, 60);
+}
+p {
+    color: white;
+    font-family: 'Playfair Display', serif;
+	margin-bottom: 30px;
+}
+#resources {
+    margin-bottom: 30px;
+}
+.button, #delete-btn {
+    width: auto;
+    margin: auto;
+    color: #ffc389;
+    background-color: #112;
+    font-family: 'Spicy Rice', cursive;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.button:hover {
+    color: white;
+    background-color: #aec9fe;
+}
+#delete-btn:hover {
+    background-color: rgb(251, 79, 79) !important;
+}

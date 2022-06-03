@@ -1,0 +1,33 @@
+#index-header {
+    color: #aec9fe;
+    font-family: 'Spicy Rice', cursive;
+}
+.index-subheader {
+    padding: 30px;
+    color: #d3e0ff;
+    font-family: 'Playfair Display', serif;
+}
+.index-subheader #small-text {
+    color: white;
+}
+.btn {
+    width: auto;
+    margin: auto;
+    color: #ffc389;
+    background-color: #112;
+    font-family: 'Spicy Rice', cursive;
+    margin-bottom: 50px;
+}
+.btn:hover {
+    color: white;
+    background-color: #aec9fe;
+}
+img {
+    width: 100%;
+    margin-bottom: 30px;
+    border-color: white;
+    border-radius: 50% 50% 50% 50%;
+    border-style: solid;
+    border-width: 5px;
+    overflow: hidden;
+}

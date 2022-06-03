@@ -1,0 +1,53 @@
+body {
+    background-color: #112;
+}
+h1 {
+    color: #aec9fe;
+    font-family: 'Spicy Rice', cursive;
+}
+label {
+    color: #d3e0ff;
+    font-family: 'Playfair Display', serif;
+}
+#form {
+    margin-top: 30px;
+    width: 50%;
+}
+.row {
+    margin-bottom: 15px;
+}
+#buttons {
+    margin-top: 30px;
+}
+#submit-btn {
+    color: #ffc389;
+    background-color: #112;
+    font-family: 'Spicy Rice', cursive;
+    margin-bottom: 10px;
+}
+#submit-btn:hover {
+    color: white;
+    background-color: #aec9fe;
+}
+#reset-btn {
+    color: white;
+    background-color: #aec9fe;
+    font-family: 'Spicy Rice', cursive;
+    margin-bottom: 10px;
+}
+#reset-btn:hover {
+    color: white;
+    background-color: #798db7;
+    font-family: 'Spicy Rice', cursive;
+}
+.form-control {
+    background-color: #ffc389;
+}
+h4, h5, h6 {
+    padding: 30px;
+    color: #d3e0ff;
+    font-family: 'Playfair Display', serif;
+}
+h6 {
+    color: white;
+}
