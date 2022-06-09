@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Roboto;
+}
+.navbar {
+    text-align: left;
+}
+.header {
+    background-image: url("images/main-img.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 580px;
+    width: 100%;
+    color: white;
+    text-shadow:
+                -1px -1px 0 grey,
+                1px -1px 0 grey,
+                -1px 1px 0 grey,
+                1px 1px 0 grey;
+    box-shadow: inset 0em -0.5em 3em rgb(59, 59, 59);
+}
+.navbar-brand, h1, h2 {
+    font-family: ElsieSwashCaps-Black;
+}
+h1 {
+    font-size: 50px;
+}
+.row, #team-row {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.row {
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+#team-row {
+    padding-top: 0px;
+    padding-bottom: 25px;
+}
+#row, #row2 {
+    border-bottom: 1px solid lightgrey;
+}
+#row2 {
+    margin-bottom: 10px;
+}
+h2 {
+    margin-bottom: 30px;
+}
+#row p, #row2 p {
+    text-align: left;
+}
+.footer {
+    font-size: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 12px;
+}
+.team-img {
+    border-color: white;
+    border-radius: 50% 50% 50% 50%;
+    border-style: solid;
+    border-width: 25px;
+    width: 100%;
+    overflow: hidden;
+}
+#members {
+    text-align: center;
+}
+#member-name {
+    margin-bottom: 13px;
+}
+#team-footer {
+    border-top: 1px solid lightgrey;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#team-member1, #team-member2, #team-member3 {
+    margin-top: 30px;
+}
+@media (min-width: 768px) {
+    #home-text1, #home-text2 {
+        width: 55%;
+        align-content: center;
+        padding-top: 35px;
+    }
+    .col-img {
+        width: 45%;
+        height: 225px;
+    }
+    #row2 .col-text {
+        order: 2;
+    }
+    #row2 .col-img {
+        order: 1;
+    }
+    #home-heading, #home-heading2 {
+        text-align: left;
+    }
+    .header {
+        padding-top: 20px;
+    }
+    .row {
+        padding-top: 30px;
+    }
+    .footer {
+        font-size: 13px;
+        padding-left: 73px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .col-text {
+        font-size: 15px;
+    }
+    #members {
+        width: 650px;
+        padding: 0px;
+    }
+}
+@media (min-width: 992px) {
+    #home-text1, #home-text2 {
+        padding-top: 60px;
+    }
+    .featured, #members {
+        max-width: 900px;
+    }
+    .row {
+        padding-bottom: 60px;
+    }
+    #team-text1, #team-text2, #team-text3 {
+        padding-top: 0px;
+    }
+    .col-img {
+        height: 275px;
+    }
+    .footer {
+        padding-left: 85px;
+    }
+    #team-footer {
+        margin-bottom: 5px;
+    }
+    #members {
+        width: 900px;
+    }
+}
