@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" 
+        href="https://fonts.googleapis.com/css?family=Alice">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samas Smiles</title>
+    <style>
+        /* ---- START MOBILE STYLES (0px - 767px)---- */
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: Alice;
+        }
+        #header {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: auto;
+            padding-right: auto;
+            text-align: center;
+            /* background-color: lightgreen; */
+            background-color: black;
+            font-size: 50px;
+            font-weight: bold;
+        }
+        #header h1 {
+            font-size: 40px;
+            color: white;
+            margin: 0;
+        }
+        h2 {
+            text-align: left;
+            margin-bottom: 40px;
+        }
+        #main-product, #related-products {
+            padding-top: 20px;
+            padding-bottom: 30px;
+            max-width: 1000px;
+        }
+        #main-name-2 {
+            display: none;
+        }
+        .item {
+            text-align: center;
+        }
+        .item img {
+            width: 400px;
+        }
+        .item .promo-code {
+            background-color: blanchedalmond;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            margin-top: 5px;
+            margin-bottom: 5x;
+            box-sizing: border-box;
+            border: 2px solid burlywood;
+            font-size: 15px;
+        }
+        .item .price, .item .reviews, .item .description {
+            text-align: left;
+        }
+        .item .price {
+            font-size: 20px;
+        }
+        #main-product {
+            width: 90%;
+            max-width: 767px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #main-product .row .item {
+            float: left;
+            width: 98%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin: 1%;
+        }
+        #main-product .row .item img {
+            width: 98%;
+        }
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        #related-products {
+            width: 90%;
+            max-width: 767px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #related-products .row .item {
+            background-color: blanchedalmond;
+            float: left;
+            width: 98%;
+            box-sizing: border-box;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 1%;
+        }
+        #related-products .row .item img {
+            width: 98%;
+        }
+        #footer {
+            background-color: black;
+            color: white;
+            font-size: 10px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+        }
+        /* ---- END MOBILE STYLES ---- */
+
+        /* -- Media queries to add CSS for bigger screens -- */
+        /* iPad vertical is 768px. Media query set for screens >=768px  */
+        @media (min-width: 768px) {
+            /*
+            #header {
+                background-color: yellow;
+            }
+            */
+            #main-product, #related-products {
+                max-width: 991px;
+            }
+            #main-product .row .item {
+                width: 48%;
+                margin: 1%;
+            }
+            #related-products .row .item {
+                width: 48%;
+                margin: 1%;
+            }
+            #main-name {
+                display: none;
+            }
+            #main-name-2 {
+                display: block;
+            }
+        }
+        /* Small desktop starts at 992px. Media query set for screens >=992px */
+        @media (min-width: 992px) {
+            /*
+            #header {
+                background-color: orange;
+            }
+            */
+            #main-product, #related-products {
+                max-width: 1000px;
+            }
+            #main-product .row .item {
+                width: 48%;
+                margin: 1%;
+            }
+            #related-products .row .item {
+                width: 23%;
+                margin: 1%;
+            }
+            #main-name {
+                display: none;
+            }
+            #main-name-2 {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- first section -->
+    <div id="header">
+        <h1>Samas Smiles</h1>
+    </div>
+    <!-- second section -->
+    <div id="main-product">
+        <h2 id="main-name">Mrs. Samas Stuffed Animal</h2>
+        <div class="row">
+            <div class="item">
+                <img src="images/samas.jpeg" alt="Mrs. Samas, a cream-colored stuffed giraffe toy." />
+                <div class="promo-code"><p>Use promo code BLN3927 to get $5 off!</p></div>
+            </div>
+            <div class="item">
+                <h2 id="main-name-2">Mrs. Samas Stuffed Animal</h2>
+                <div class="price"><p>Price: $24.99</p></div>
+                <div class="reviews"><p>&#9733; &#9733; &#9733; &#9733; &#9733; 3,927 reviews</p></div>
+                <div class="description"><p>
+                    <ul>
+                        <li>SEWN WITH LOVE - Giraffe plush designed for babies but perfect for all ages!</li>
+                        <li>FILLED WITH CARE - No pellets! Just soft, huggable cotton! Rattle included inside.</li>
+                        <li>ADORABLE YET ELEGANT - Eyes, nose, and patches delicate to the touch. Very soft cream and grey plush!</li>
+                    </p></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- third section -->
+    <div id="related-products">
+        <h2>Related products</h2>
+        <div class="row">
+            <div class="item">
+                <img src="images/samas-blanket.jpeg" alt="A blanket hoodie designed after our Mrs. Samas Stuffed Animal." />
+            </div>
+            <div class="item">
+                <img src="images/masam.jpeg" alt="Mr. Masam, a brown-colored stuffed horse toy." />
+            </div>
+            <div class="item">
+                <img src="images/masam-blanket.jpeg" alt="A blanket hoodie designed after our Mr. Masam Stuffed Animal." />
+            </div>
+            <div class="item">
+                <img src="images/ceci.jpeg" alt="Miss Ceci, a rose-colored stuffed elephant toy." />
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        Made by Sarah Bautista for ITP 303. 2022.
+    </div>
+</body>
+</html>
